@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Colorful Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #404179b4, #91a2bc);
+      color: #111827;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 22px;
+      margin-bottom: 18px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      border-left: 6px solid #6366f1;
+    }
+    .header-card {
+      background: linear-gradient(120deg, #3cc9c7, #22c55e);
+      color: white;
+      border-left: none;
+    }
+    h1, h2, h3 { margin: 0 0 10px 0; }
+    h2 { color: #2563eb; }
+    .row { display: flex; gap: 10px; flex-wrap: wrap; }
+    .skill {
+      background: linear-gradient(120deg, #22c55e, #14b8a6);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 14px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .btn {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      margin-right: 8px;
+      margin-top: 8px;
+      background: linear-gradient(120deg, #6c59cbc7, #000000);
+      font-weight: 600;
+      transition: transform 0.1s ease;
+    }
+    .btn:hover { transform: scale(1.05); }
+    .project {
+      background: #f0f9ff;
+      padding: 12px;
+      border-radius: 14px;
+      margin-bottom: 10px;
+      border: 1px solid #bae6fd;
+    }
+    .footer-card { border-left: 6px solid #22c55e; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="card header-card">
+      <h1>Arun</h1>
+      <p><strong>Aspiring Software Developer | Cybersecurity Fresher</strong></p>
+      <p>Motivated fresher passionate about building secure and scalable applications.</p>
+      <a class="btn" href="#">GitHub</a>
+      <a class="btn" href="#">LinkedIn</a>
+      <a class="btn" href="#">Email</a>
+    </div>
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I am a recent graduate eager to contribute to real-world projects in software development and cybersecurity.</p>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="skill">Cybersecurity</div>
+        <div class="skill">Cybersecurity tools</div>
+        <div class="skill">VAPT</div>
+        <div class="skill">Pentester</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Electricity Theft Detection</h3>
+        <p>Machine learning system using DNN, CNN, and GRU models.</p>
+      </div>
+      <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>Built using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+
+    <div class="card footer-card">
+      <h2>Contact</h2>
+      <p>Email: durshetiarun0911@gmail.com</p>
+      <p>LinkedIn: linkedin.com/in/yourname</p>
+      <p>GitHub: github.com/yourname</p>
+    </div>
+
+  </div>
+</body>
+</html>
